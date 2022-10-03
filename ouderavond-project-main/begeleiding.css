@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding-left: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   overflow-x: hidden;
+  background-color: darkcyan;
+  }
+  
+  
+ header{ 
+ box-sizing: border-box;
+bottom: 22px;
+position: relative;
+left: 550px;
+}
+
+nav{
+  border: solid;
+  border-radius: 15px;
+  border: 10px;
+  background-color: rgb(0, 0, 0);
+  height: 75px;
+ 
+}
+
+
+h2{
+  position: relative;
+  left: 50px;
+  top: 20px;
+  color:white
+}
+
+ul {
+
+list-style: none;
+display: flex ;
+position: relative	;
+top: 24px;
+left: 200px;
+}
+
+a:hover{
+  padding-top: 50px;
+  color: cadetblue;
+}
+ a{
+
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  position: relative ;
+   bottom: 45px;
+  padding: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+
+ .debegeleiding{
+  
+  border:5px;
+  border-radius: 5px;
+ }
