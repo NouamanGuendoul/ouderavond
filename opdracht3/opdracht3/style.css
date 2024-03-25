@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans
+  
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: center; /* Horizontaal centreren */
+    align-items: center; /* Verticaal centreren */
+    height: 100px;
+    background-color: purple;
+    text-align: center;
+  }
+  
+
+
+  nav {
+    display: flex;
+    justify-content: flex-start; /* Uitlijnen naar links */
+    align-items: center; /* Verticaal centreren */
+    height: 85px;
+    background-color: #5B5AA1;
+    color: white;
+}
+
+    ul{
+        list-style: none;
+       
+        border-radius: 5px;
+        }
+        
+        
+        ul li{
+            display: inline-block;
+            position: relative;
+            margin-left: 50px;
+        }
+        
+        ul li a {
+         
+            color: #000000;
+            text-decoration: none;
+            text-align: center;
+            font-size: 20px;
+        }
+  
+  /* Footer */
+  
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% van de viewport-hoogte innemen */
+   
+}
+
+footer.homefooter ,footer.overmijfooter , .bedrijffooter {
+    background-color: #5B5AA1;
+    color: white;
+    padding: 20px;
+    margin-top: auto; /* Plaats de footer altijd onderaan */
+   
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+}
+/* Rest van je CSS-stijlen blijven hetzelfde */
+
+  
+  
+  /* Image */
+ 
+  
+  /* Sections */
+  .homesection , .overmijsection ,.bedrijfsection{
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+
+    .bedrijfarticle  , .overmijarticle , .homearticle { 
+    border-radius: 5px;
+    width: 10pv;
+    background-color:#FDE9E9;
+    margin-top: 50px; /* Verplaats de sectie 50px naar beneden */
+    margin-bottom: 50px; /* Optioneel: voeg wat ruimte toe onderaan de sectie */
+    padding: 20px;
+    }
+
+  
+
+
+  
+  /*img*/
+
+  img {
+   
+margin-left: 550px;
+    float: right;
+    width:370px;
+    height: 370px;
+  }
+  
+  
