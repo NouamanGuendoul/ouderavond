@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center; /* Horizontaal centreren */
+  align-items: center; /* Verticaal centreren */
+  height: calc(10vh + 50px); /* Headerhoogte is 10% viewport-hoogte plus 50px extra */
+  background-color: purple;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start; /* Uitlijnen naar links */
+  align-items: center; /* Verticaal centreren */
+  height: 85px;
+  background-color: #5B5AA1;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  border-radius: 5px;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  margin-left: 50px;
+}
+
+ul li a {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% van de viewport-hoogte innemen */
+}
+
+footer {
+  padding: 20px;
+  margin-top: auto; /* Plaats de footer altijd onderaan */
+  
+}
+  .homefooter,
+  .overmijfooter,
+  .bedrijffooter {
+      background-color: #5B5AA1;
+      color: white;
+  }
+  
+  p {
+      display: flex;
+      justify-content: center;
+  }
+
+
+/* Sections */
+.homesection,
+.overmijsection,
+.bedrijfsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Article styling */
+.bedrijfarticle,
+.overmijarticle,
+.homearticle {
+  border-radius: 5px;
+  width: 10pv; /* Is dit een typefout? Moet het '10vw' zijn? */
+  background-color: #FDE9E9;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+/* Image */
+img {
+  margin-left: 550px;
+  float: right;
+  width: 370px;
+  height: 370px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centreer de afbeeldingen horizontaal */
+  align-items: center; /* Centreer de afbeeldingen verticaal */
+}
+
+.imgovermij1, .imgovermij2, .imgovermij3 {
+  margin: 10px; /* Voeg wat ruimte toe tussen de afbeeldingen */
+}
+
+.image-container2 {
+  display: flex;
+  justify-content: center; /* Centreer de afbeeldingen horizontaal */
+  align-items: center; /* Centreer de afbeeldingen verticaal */
+  
+}
+
+.image-container2 img {
+  margin: 30px; /* Voeg wat ruimte toe tussen de afbeeldingen */
+}
+
+
+
+/* Media Queries voor tablet en mobiel */
+@media screen and (max-width: 768px) {
+  nav {
+      justify-content: center; /* Center links */
+  }
+  ul li {
+      margin: 0 20px; /* Reduceer de afstand tussen lijstitems */
+  }
+  
+ }
+
+@media screen and (max-width: 480px) {
+  header {
+      height: 150px; /* Vergroot de hoogte van de header voor mobiliteit */
+  }
+  nav {
+      flex-direction: column; /* Stel verticale uitlijning in */
+      justify-content: center; /* Centreer items verticaal */
+      height: auto; /* Laat de hoogte automatisch worden berekend */
+  }
+  ul li {
+      margin: 10px 0; /* Verander de marge voor lijstitems */
+  }
+}
