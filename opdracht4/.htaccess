@@ -1,0 +1,11 @@
+# Enable rewriting engine
+RewriteEngine On
+
+
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+    Header set Referrer-Policy "strict-origin"
+</IfModule>
